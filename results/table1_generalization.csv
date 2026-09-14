@@ -1,0 +1,5 @@
+Dataset,Adapter,R@1,R@5,R@10
+A: Flickr30k (general),none,0.592,0.8335,0.889
+A: Flickr30k (general),hybrid (A+B),0.684,0.89,0.9415
+B: BDD100K (driving),none,0.094,0.216,0.306
+B: BDD100K (driving),hybrid (A+B),0.16,0.344,0.458

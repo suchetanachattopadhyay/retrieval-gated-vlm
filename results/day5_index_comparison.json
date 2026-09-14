@@ -1,0 +1,91 @@
+{
+  "pool_size": 2500,
+  "pool_composition": {
+    "dataset_a": 2000,
+    "dataset_b": 500
+  },
+  "base_comparison": {
+    "flat": {
+      "avg_query_latency_ms": 0.08858156204223633,
+      "std_query_latency_ms": 0.01113768886291986,
+      "recall@k_vs_flat": 1.0,
+      "build_time_s": 0.0022954940795898438
+    },
+    "ivf": {
+      "avg_query_latency_ms": 0.01975703239440918,
+      "std_query_latency_ms": 0.004213781638383151,
+      "recall@k_vs_flat": 0.9634999999999999,
+      "build_time_s": 0.04465627670288086
+    },
+    "hnsw": {
+      "avg_query_latency_ms": 0.019589900970458984,
+      "std_query_latency_ms": 0.003986090868986629,
+      "recall@k_vs_flat": 0.9984999999999999,
+      "build_time_s": 0.11249375343322754
+    }
+  },
+  "ivf_sweep": [
+    {
+      "avg_query_latency_ms": 0.008708953857421875,
+      "std_query_latency_ms": 0.0026518160022973884,
+      "recall@k_vs_flat": 0.5509999999999999,
+      "nprobe": 1
+    },
+    {
+      "avg_query_latency_ms": 0.018222332000732422,
+      "std_query_latency_ms": 0.004810625558713819,
+      "recall@k_vs_flat": 0.8905000000000001,
+      "nprobe": 5
+    },
+    {
+      "avg_query_latency_ms": 0.017473697662353516,
+      "std_query_latency_ms": 0.00031871222788229845,
+      "recall@k_vs_flat": 0.9634999999999999,
+      "nprobe": 10
+    },
+    {
+      "avg_query_latency_ms": 0.03188014030456543,
+      "std_query_latency_ms": 0.0029144350887835456,
+      "recall@k_vs_flat": 0.9915,
+      "nprobe": 20
+    },
+    {
+      "avg_query_latency_ms": 0.06816649436950684,
+      "std_query_latency_ms": 0.0024584528518128653,
+      "recall@k_vs_flat": 0.9995,
+      "nprobe": 50
+    }
+  ],
+  "hnsw_sweep": [
+    {
+      "avg_query_latency_ms": 0.019357919692993164,
+      "std_query_latency_ms": 0.0020548026917203135,
+      "recall@k_vs_flat": 0.9984999999999999,
+      "ef_search": 16
+    },
+    {
+      "avg_query_latency_ms": 0.02870464324951172,
+      "std_query_latency_ms": 0.0009583487986605339,
+      "recall@k_vs_flat": 0.9995,
+      "ef_search": 32
+    },
+    {
+      "avg_query_latency_ms": 0.04609227180480957,
+      "std_query_latency_ms": 0.0005043649103410368,
+      "recall@k_vs_flat": 1.0,
+      "ef_search": 64
+    },
+    {
+      "avg_query_latency_ms": 0.07231879234313965,
+      "std_query_latency_ms": 0.0022816895440838495,
+      "recall@k_vs_flat": 1.0,
+      "ef_search": 128
+    },
+    {
+      "avg_query_latency_ms": 0.1143193244934082,
+      "std_query_latency_ms": 0.0013310318015904304,
+      "recall@k_vs_flat": 1.0,
+      "ef_search": 256
+    }
+  ]
+}

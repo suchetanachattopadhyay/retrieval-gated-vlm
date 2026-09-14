@@ -1,0 +1,19 @@
+{
+  "flat": {
+    "incremental_mean_ms_per_batch": 0.13518333435058594,
+    "incremental_std_ms_per_batch": 0.21555993206896987,
+    "full_rebuild_ms": 2.213001251220703
+  },
+  "ivf": {
+    "incremental_mean_ms_per_batch": 0.1443326473236084,
+    "incremental_std_ms_per_batch": 0.07172724361726378,
+    "full_rebuild_ms": 5.181312561035156,
+    "note": "incremental add reuses existing cluster centroids without retraining."
+  },
+  "hnsw": {
+    "incremental_mean_ms_per_batch": 5.6983232498168945,
+    "incremental_std_ms_per_batch": 0.660153007721309,
+    "full_rebuild_ms": 81.38394355773926,
+    "note": "graph-based incremental insert avoids full rebuild but may need periodic reindexing."
+  }
+}

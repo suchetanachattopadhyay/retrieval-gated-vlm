@@ -1,0 +1,122 @@
+[
+  {
+    "trace_id": "8bc8d352-d3b1-4ac3-974a-ef7d9c7a0caa",
+    "timestamp": "2026-08-16T16:32:07.885143+00:00",
+    "query": "a dog running on grass",
+    "index_config": {
+      "name": "flat",
+      "k": 5
+    },
+    "retrieved_candidates": [
+      {
+        "image_idx": 1805,
+        "similarity_score": 0.3341512382030487
+      },
+      {
+        "image_idx": 70,
+        "similarity_score": 0.32490554451942444
+      },
+      {
+        "image_idx": 1165,
+        "similarity_score": 0.3226366341114044
+      },
+      {
+        "image_idx": 1157,
+        "similarity_score": 0.3129904866218567
+      },
+      {
+        "image_idx": 505,
+        "similarity_score": 0.30950871109962463
+      }
+    ],
+    "vlm_model": "SmolVLM2-256M",
+    "vlm_output": [
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    "pipeline_latency_s": 11.926536321640015
+  },
+  {
+    "trace_id": "69299799-8051-401a-9d29-22d413c06686",
+    "timestamp": "2026-08-16T16:32:17.089171+00:00",
+    "query": "people at a table eating",
+    "index_config": {
+      "name": "flat",
+      "k": 5
+    },
+    "retrieved_candidates": [
+      {
+        "image_idx": 130,
+        "similarity_score": 0.2932995557785034
+      },
+      {
+        "image_idx": 307,
+        "similarity_score": 0.2927100658416748
+      },
+      {
+        "image_idx": 1679,
+        "similarity_score": 0.28567975759506226
+      },
+      {
+        "image_idx": 476,
+        "similarity_score": 0.2854646146297455
+      },
+      {
+        "image_idx": 208,
+        "similarity_score": 0.2846325933933258
+      }
+    ],
+    "vlm_model": "SmolVLM2-256M",
+    "vlm_output": [
+      "Yes",
+      "yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    "pipeline_latency_s": 9.203847646713257
+  },
+  {
+    "trace_id": "0196e28c-24fa-4a61-a8d4-a0ebbcbb1b98",
+    "timestamp": "2026-08-16T16:32:26.278577+00:00",
+    "query": "a red car on the street",
+    "index_config": {
+      "name": "flat",
+      "k": 5
+    },
+    "retrieved_candidates": [
+      {
+        "image_idx": 69,
+        "similarity_score": 0.28404974937438965
+      },
+      {
+        "image_idx": 337,
+        "similarity_score": 0.26956433057785034
+      },
+      {
+        "image_idx": 1890,
+        "similarity_score": 0.26593929529190063
+      },
+      {
+        "image_idx": 1656,
+        "similarity_score": 0.26117563247680664
+      },
+      {
+        "image_idx": 816,
+        "similarity_score": 0.2598623037338257
+      }
+    ],
+    "vlm_model": "SmolVLM2-256M",
+    "vlm_output": [
+      "No",
+      "Yes",
+      "No",
+      "No",
+      "No"
+    ],
+    "pipeline_latency_s": 9.189231872558594
+  }
+]

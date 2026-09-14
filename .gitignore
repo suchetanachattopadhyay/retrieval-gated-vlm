@@ -1,0 +1,15 @@
+# Regenerable artifacts — see README "Artifacts"
+artifacts/
+*.npy
+*.index
+*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
