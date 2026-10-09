@@ -9,7 +9,7 @@ archive. No cloud round-trip at any stage.
 
 Code and results for *Lightweight, Provenance-Aware Retrieval Gating for Vision–Language
 Inference on Resource-Constrained Devices*, NeurIPS 2026 Workshop on On-Device Intelligence
-([paper](paper/Chatterjee_Chattopadhyay_ODI2026.pdf)).
+([paper](Chatterjee_Chattopadhyay_ODI2026.pdf)).
 
 ---
 
@@ -125,7 +125,7 @@ storage, with no second run and nothing sent off-device.
 │   ├── quantize.py     # FP16/INT8/NF4 memory + latency ablation
 │   └── provenance.py   # gated query with structured provenance record
 ├── results/            # every JSON, CSV and figure behind the tables above
-└── paper/              # the write-up
+└── Chatterjee_Chattopadhyay_ODI2026.pdf   # the paper (camera-ready)
 ```
 
 The notebook is the reproduction path; `src/` is the same logic factored into importable modules
@@ -160,7 +160,7 @@ Chattopadhyay\* (Jadavpur University). \*Equal contribution.
 
 Accepted at the **NeurIPS 2026 Workshop on On-Device Intelligence: Foundation Models under
 Real-World Constraints** (non-archival). Camera-ready PDF:
-[`paper/Chatterjee_Chattopadhyay_ODI2026.pdf`](paper/Chatterjee_Chattopadhyay_ODI2026.pdf).
+[`Chatterjee_Chattopadhyay_ODI2026.pdf`](Chatterjee_Chattopadhyay_ODI2026.pdf).
 
 ```bibtex
 @inproceedings{chatterjee2026retrievalgating,
