@@ -8,7 +8,8 @@ Frozen CLIP ViT-B/32 → FAISS → SmolVLM2-256M, on one NVIDIA T4, over a 2,500
 archive. No cloud round-trip at any stage.
 
 Code and results for *Lightweight, Provenance-Aware Retrieval Gating for Vision–Language
-Inference on Resource-Constrained Devices* ([paper](paper/odi2026_submission.pdf)).
+Inference on Resource-Constrained Devices*, NeurIPS 2026 Workshop on On-Device Intelligence
+([paper](paper/Chatterjee_Chattopadhyay_ODI2026.pdf)).
 
 ---
 
@@ -154,11 +155,23 @@ the JSON/CSV/PNG they produce are, in `results/`.
 ## Paper
 
 *Lightweight, Provenance-Aware Retrieval Gating for Vision–Language Inference on
-Resource-Constrained Devices.* Souparna Chatterjee (NIT Durgapur), Suchetana Chattopadhyay
-(Jadavpur University).
+Resource-Constrained Devices.* Souparna Chatterjee\* (NIT Durgapur), Suchetana
+Chattopadhyay\* (Jadavpur University). \*Equal contribution.
 
-<!-- TODO: replace with the final venue line before making this public. -->
-Status: preprint.
+Accepted at the **NeurIPS 2026 Workshop on On-Device Intelligence: Foundation Models under
+Real-World Constraints** (non-archival). Camera-ready PDF:
+[`paper/Chatterjee_Chattopadhyay_ODI2026.pdf`](paper/Chatterjee_Chattopadhyay_ODI2026.pdf).
+
+```bibtex
+@inproceedings{chatterjee2026retrievalgating,
+  author    = {Souparna Chatterjee and Suchetana Chattopadhyay},
+  title     = {Lightweight, Provenance-Aware Retrieval Gating for Vision--Language
+               Inference on Resource-Constrained Devices},
+  booktitle = {NeurIPS 2026 Workshop on On-Device Intelligence: Foundation Models
+               under Real-World Constraints},
+  year      = {2026}
+}
+```
 
 ## License
 
